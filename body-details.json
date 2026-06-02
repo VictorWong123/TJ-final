@@ -1,0 +1,57 @@
+{
+  "gameTitle": "Body Part Blast",
+  "version": "1.2",
+  "instructions": "Show one target body part in the header. Spawn moving information nodes. The player shoots the node whose information matches the target body part.",
+  "bodyParts": [
+    {
+      "id": "brain",
+      "label": "Brain",
+      "info": "Controls thinking, memory, emotions, speech, movement, breathing, and how the body responds to the world."
+    },
+    {
+      "id": "heart_chest",
+      "label": "Heart/Chest",
+      "info": "Pumps blood through the body, delivering oxygen and nutrients while helping keep the body alive."
+    },
+    {
+      "id": "left_shoulder",
+      "label": "Left Shoulder",
+      "info": "Connects the arm to the upper body and allows lifting, reaching, rotating, and wide-range arm movement."
+    },
+    {
+      "id": "right_shoulder",
+      "label": "Right Shoulder",
+      "info": "Helps the arm move upward, backward, forward, and side to side with a wide range of motion."
+    },
+    {
+      "id": "left_hand_wrist",
+      "label": "Left Hand/Wrist",
+      "info": "Used for gripping, writing, typing, lifting small objects, and making precise movements."
+    },
+    {
+      "id": "right_hand_wrist",
+      "label": "Right Hand/Wrist",
+      "info": "Helps control grip strength, object handling, finger movement, and positioning for daily tasks."
+    },
+    {
+      "id": "left_knee",
+      "label": "Left Knee",
+      "info": "Acts as a hinge that lets the leg bend and straighten for walking, running, jumping, and standing."
+    },
+    {
+      "id": "right_knee",
+      "label": "Right Knee",
+      "info": "Supports body weight and absorbs impact during movement, especially while running or climbing stairs."
+    },
+    {
+      "id": "left_foot_ankle",
+      "label": "Left Foot/Ankle",
+      "info": "Supports balance, absorbs impact, and helps push the body forward during walking, running, or jumping."
+    },
+    {
+      "id": "right_foot_ankle",
+      "label": "Right Foot/Ankle",
+      "info": "Helps control balance, direction, and movement when standing, walking, or moving across uneven surfaces."
+    }
+  ]
+}

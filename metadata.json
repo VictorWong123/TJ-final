@@ -1,0 +1,6 @@
+{
+  "name": "Interactive MRI Scanner Lab",
+  "description": "An interactive educational activity to learn about MRI scans and human anatomy with a futuristic medical theme.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

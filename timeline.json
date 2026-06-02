@@ -1,0 +1,324 @@
+{
+  "title": "MRI Screen Era-Based Body Part Info",
+  "version": "1.1",
+  "instructions": "Use this data on the MRI learning screen. For each selected body part, show what information doctors could typically get before MRI, in early MRI around the 1980s, and with modern MRI.",
+  "eras": [
+    {
+      "id": "pre_mri",
+      "label": "Pre-MRI Era",
+      "description": "Before MRI was widely available, doctors relied mainly on physical exams, X-rays, lab tests, angiography, ultrasound, early CT scans, and exploratory procedures. These methods were useful but often gave less soft-tissue detail."
+    },
+    {
+      "id": "early_mri_1980s",
+      "label": "Early MRI Era",
+      "description": "In the 1980s, MRI began giving clearer soft-tissue images without using ionizing radiation. Scans were slower, lower resolution, and less detailed than modern MRI, but they were a major improvement for seeing organs, joints, and nervous tissue."
+    },
+    {
+      "id": "modern_mri",
+      "label": "Modern MRI Era",
+      "description": "Modern MRI can produce high-resolution images and specialized scans that show structure, tissue injury, inflammation, blood flow, and sometimes function. It is especially strong for soft tissue, joints, the brain, and the heart."
+    }
+  ],
+  "bodyParts": [
+    {
+      "id": "brain",
+      "label": "Brain",
+      "eraInfo": {
+        "pre_mri": {
+          "summary": "Doctors could use symptoms, neurological exams, X-rays, angiography, and early CT scans to look for major problems.",
+          "details": [
+            "Large tumors, skull fractures, bleeding, or major strokes could sometimes be detected.",
+            "Small tumors, early stroke changes, inflammation, or subtle nerve tissue damage were much harder to see.",
+            "Doctors often had to infer brain problems from symptoms instead of seeing the tissue clearly."
+          ]
+        },
+        "early_mri_1980s": {
+          "summary": "Early MRI gave much better soft-tissue contrast for the brain than X-rays and many CT scans.",
+          "details": [
+            "Doctors could see brain structures, tumors, swelling, and abnormal tissue more clearly.",
+            "It helped separate healthy tissue from damaged or diseased tissue.",
+            "Scans were slower and less detailed than modern MRI, so small or fast-changing problems were still harder to evaluate."
+          ]
+        },
+        "modern_mri": {
+          "summary": "Modern MRI can show detailed brain structure and many types of brain injury or disease.",
+          "details": [
+            "Doctors can evaluate tumors, strokes, bleeding, swelling, multiple sclerosis lesions, infections, and traumatic injury.",
+            "Diffusion imaging can help detect some strokes very early.",
+            "Advanced MRI can study blood flow, brain activity patterns, and connections between brain regions."
+          ]
+        }
+      }
+    },
+    {
+      "id": "heart_chest",
+      "label": "Heart/Chest",
+      "eraInfo": {
+        "pre_mri": {
+          "summary": "Doctors relied on physical exams, chest X-rays, ECGs, angiography, echocardiography, and later CT for heart and chest information.",
+          "details": [
+            "They could estimate heart size, lung problems, rhythm issues, and some blocked blood vessels.",
+            "Soft-tissue detail and direct views of heart muscle damage were more limited.",
+            "Some tests were invasive or exposed the patient to radiation."
+          ]
+        },
+        "early_mri_1980s": {
+          "summary": "Early MRI could show chest anatomy and some heart structures, but heart imaging was limited by motion and scan speed.",
+          "details": [
+            "Doctors could see some large structures in the chest and basic heart anatomy.",
+            "Because the heart moves constantly, early scans were not as strong for detailed pumping or blood-flow information.",
+            "It was useful, but not yet as powerful for heart imaging as modern cardiac MRI."
+          ]
+        },
+        "modern_mri": {
+          "summary": "Modern cardiac MRI can show heart structure, motion, blood flow, and tissue damage in detail.",
+          "details": [
+            "Doctors can measure chamber size, pumping strength, valve function, and blood-flow patterns.",
+            "It can show inflammation, scarring, congenital heart problems, and damage after a heart attack.",
+            "Moving images allow doctors to watch the heart contract and relax."
+          ]
+        }
+      }
+    },
+    {
+      "id": "left_shoulder",
+      "label": "Left Shoulder",
+      "eraInfo": {
+        "pre_mri": {
+          "summary": "Doctors mainly used physical exams, X-rays, and sometimes arthrography to evaluate shoulder problems.",
+          "details": [
+            "X-rays could show fractures, dislocations, and arthritis-related bone changes.",
+            "Soft-tissue injuries like tendon tears, labrum injuries, and inflammation were harder to see directly.",
+            "Doctors often relied on pain location, movement tests, and patient symptoms."
+          ]
+        },
+        "early_mri_1980s": {
+          "summary": "Early MRI improved the ability to see soft tissues around the shoulder joint.",
+          "details": [
+            "Doctors could begin seeing tendons, muscles, joint fluid, and some rotator cuff problems more clearly.",
+            "It helped identify injuries that X-rays could miss because X-rays mostly show bone.",
+            "Image quality was still limited compared with modern scans."
+          ]
+        },
+        "modern_mri": {
+          "summary": "Modern MRI can show detailed shoulder anatomy and common sports or overuse injuries.",
+          "details": [
+            "Doctors can evaluate rotator cuff tears, labrum injuries, tendon inflammation, bursitis, and cartilage damage.",
+            "It can help explain pain, weakness, stiffness, or reduced range of motion.",
+            "High-resolution images make it easier to plan treatment or surgery."
+          ]
+        }
+      }
+    },
+    {
+      "id": "right_shoulder",
+      "label": "Right Shoulder",
+      "eraInfo": {
+        "pre_mri": {
+          "summary": "Doctors mainly used physical exams, X-rays, and sometimes arthrography to evaluate shoulder problems.",
+          "details": [
+            "X-rays could show fractures, dislocations, and arthritis-related bone changes.",
+            "Soft-tissue injuries like tendon tears, labrum injuries, and inflammation were harder to see directly.",
+            "Doctors often relied on movement tests, pain patterns, and strength checks."
+          ]
+        },
+        "early_mri_1980s": {
+          "summary": "Early MRI gave doctors a better look at soft tissues around the shoulder than older imaging methods.",
+          "details": [
+            "Doctors could begin seeing tendons, muscles, joint fluid, and some rotator cuff problems.",
+            "It helped reveal injuries that would not appear clearly on X-rays.",
+            "The scans were slower and less detailed than modern MRI."
+          ]
+        },
+        "modern_mri": {
+          "summary": "Modern MRI can show detailed shoulder anatomy and common joint injuries.",
+          "details": [
+            "Doctors can evaluate rotator cuff tears, labrum injuries, tendon inflammation, bursitis, and cartilage damage.",
+            "It can help explain pain, weakness, stiffness, or reduced range of motion.",
+            "Modern images are detailed enough to help guide treatment decisions."
+          ]
+        }
+      }
+    },
+    {
+      "id": "left_hand_wrist",
+      "label": "Left Hand/Wrist",
+      "eraInfo": {
+        "pre_mri": {
+          "summary": "Doctors relied on physical exams, X-rays, and sometimes nerve tests or exploratory procedures.",
+          "details": [
+            "X-rays could show obvious fractures, dislocations, and arthritis-related bone changes.",
+            "Small ligament tears, tendon problems, cysts, and soft-tissue inflammation were harder to see.",
+            "Doctors often had to diagnose based on pain, swelling, grip strength, and motion limits."
+          ]
+        },
+        "early_mri_1980s": {
+          "summary": "Early MRI made it possible to see more soft-tissue detail in small joints than X-rays could show.",
+          "details": [
+            "Doctors could begin evaluating tendons, ligaments, joint fluid, and some hidden injuries.",
+            "Small structures were still challenging because early MRI resolution was limited.",
+            "It was a major step toward detecting injuries that did not show clearly on X-rays."
+          ]
+        },
+        "modern_mri": {
+          "summary": "Modern MRI can show detailed wrist and hand structures, including small bones and soft tissues.",
+          "details": [
+            "Doctors can evaluate ligament tears, tendon injuries, inflammation, cysts, nerve-related problems, and hidden fractures.",
+            "It can help explain pain, numbness, swelling, or reduced grip strength.",
+            "High-resolution imaging is especially useful because the wrist and hand contain many small structures close together."
+          ]
+        }
+      }
+    },
+    {
+      "id": "right_hand_wrist",
+      "label": "Right Hand/Wrist",
+      "eraInfo": {
+        "pre_mri": {
+          "summary": "Doctors relied on physical exams, X-rays, and sometimes nerve tests or exploratory procedures.",
+          "details": [
+            "X-rays could show obvious fractures, dislocations, and arthritis-related bone changes.",
+            "Small ligament tears, tendon injuries, cysts, and inflammation were harder to see.",
+            "Diagnosis often depended on symptoms, grip strength, swelling, and range of motion."
+          ]
+        },
+        "early_mri_1980s": {
+          "summary": "Early MRI helped doctors see more soft-tissue detail in small joints than X-rays could provide.",
+          "details": [
+            "Doctors could begin evaluating tendons, ligaments, joint fluid, and some hidden injuries.",
+            "Small structures were still difficult because early scan resolution was limited.",
+            "It helped reveal injuries that might not appear on regular X-rays."
+          ]
+        },
+        "modern_mri": {
+          "summary": "Modern MRI can show detailed wrist and hand structures, including small bones and soft tissues.",
+          "details": [
+            "Doctors can evaluate ligament tears, tendon injuries, inflammation, cysts, nerve-related problems, and hidden fractures.",
+            "It can help explain pain, numbness, swelling, or reduced grip strength.",
+            "High-resolution imaging is useful because the area contains many tiny structures packed closely together."
+          ]
+        }
+      }
+    },
+    {
+      "id": "left_knee",
+      "label": "Left Knee",
+      "eraInfo": {
+        "pre_mri": {
+          "summary": "Doctors mainly used physical exams, X-rays, and sometimes arthroscopy to evaluate knee injuries.",
+          "details": [
+            "X-rays could show fractures, dislocations, arthritis, and bone alignment.",
+            "Soft-tissue injuries like ACL tears, meniscus tears, cartilage damage, and tendon problems were harder to see directly.",
+            "Some injuries required invasive procedures to confirm what was wrong."
+          ]
+        },
+        "early_mri_1980s": {
+          "summary": "Early MRI made it much easier to see internal knee structures without surgery.",
+          "details": [
+            "Doctors could begin seeing ligaments, cartilage, meniscus, tendons, swelling, and bone bruises.",
+            "It helped identify injuries that X-rays could not show.",
+            "Image detail was limited compared with modern MRI, but it was a major improvement for joint diagnosis."
+          ]
+        },
+        "modern_mri": {
+          "summary": "Modern MRI can show detailed knee structures and many common athletic injuries.",
+          "details": [
+            "Doctors can evaluate ACL, PCL, MCL, and LCL injuries, meniscus tears, cartilage damage, tendon problems, swelling, and bone bruises.",
+            "It can help explain pain, instability, locking, stiffness, or swelling.",
+            "Detailed imaging helps doctors decide between rest, physical therapy, injections, or surgery."
+          ]
+        }
+      }
+    },
+    {
+      "id": "right_knee",
+      "label": "Right Knee",
+      "eraInfo": {
+        "pre_mri": {
+          "summary": "Doctors mainly used physical exams, X-rays, and sometimes arthroscopy to evaluate knee injuries.",
+          "details": [
+            "X-rays could show fractures, dislocations, arthritis, and bone alignment.",
+            "Soft-tissue injuries like ACL tears, meniscus tears, cartilage damage, and tendon problems were harder to see directly.",
+            "Doctors often relied on movement tests and symptoms unless surgery was used to confirm the injury."
+          ]
+        },
+        "early_mri_1980s": {
+          "summary": "Early MRI improved the ability to see internal knee structures without invasive procedures.",
+          "details": [
+            "Doctors could begin seeing ligaments, cartilage, meniscus, tendons, swelling, and bone bruises.",
+            "It helped detect injuries that X-rays could miss.",
+            "The scans were not as fast or detailed as modern MRI, but they changed how knee injuries were evaluated."
+          ]
+        },
+        "modern_mri": {
+          "summary": "Modern MRI can show detailed knee structures and many common sports or overuse injuries.",
+          "details": [
+            "Doctors can evaluate ACL, PCL, MCL, and LCL injuries, meniscus tears, cartilage damage, tendon problems, swelling, and bone bruises.",
+            "It can help explain pain, instability, locking, stiffness, or swelling.",
+            "Detailed imaging helps guide treatment and recovery plans."
+          ]
+        }
+      }
+    },
+    {
+      "id": "left_foot_ankle",
+      "label": "Left Foot/Ankle",
+      "eraInfo": {
+        "pre_mri": {
+          "summary": "Doctors relied on physical exams, X-rays, and sometimes stress tests to evaluate foot and ankle injuries.",
+          "details": [
+            "X-rays could show obvious fractures, dislocations, and bone alignment problems.",
+            "Ligament tears, tendon injuries, cartilage damage, swelling, and early stress fractures were harder to see.",
+            "Doctors often diagnosed sprains or soft-tissue injuries based on pain, swelling, bruising, and movement limits."
+          ]
+        },
+        "early_mri_1980s": {
+          "summary": "Early MRI helped doctors see soft-tissue and hidden bone injuries in the foot and ankle more clearly.",
+          "details": [
+            "Doctors could begin identifying ligament injuries, tendon damage, swelling, and some stress injuries.",
+            "It helped reveal problems that looked normal on X-rays.",
+            "Small structures were still harder to evaluate because early MRI resolution was limited."
+          ]
+        },
+        "modern_mri": {
+          "summary": "Modern MRI can show detailed soft-tissue and bone injuries in the foot and ankle.",
+          "details": [
+            "Doctors can evaluate ligament tears, tendon injuries, cartilage damage, inflammation, swelling, stress fractures, and bone bruises.",
+            "It can help explain pain during walking, running, jumping, or standing.",
+            "Modern imaging is useful for both acute injuries and long-term overuse problems."
+          ]
+        }
+      }
+    },
+    {
+      "id": "right_foot_ankle",
+      "label": "Right Foot/Ankle",
+      "eraInfo": {
+        "pre_mri": {
+          "summary": "Doctors relied on physical exams, X-rays, and sometimes stress tests to evaluate foot and ankle injuries.",
+          "details": [
+            "X-rays could show obvious fractures, dislocations, and bone alignment problems.",
+            "Ligament tears, tendon injuries, cartilage damage, swelling, and early stress fractures were harder to see.",
+            "Diagnosis often depended on pain location, swelling, bruising, and movement limits."
+          ]
+        },
+        "early_mri_1980s": {
+          "summary": "Early MRI improved the ability to see soft-tissue and hidden bone injuries in the foot and ankle.",
+          "details": [
+            "Doctors could begin identifying ligament injuries, tendon damage, swelling, and some stress injuries.",
+            "It helped reveal problems that could be missed on X-rays.",
+            "Because the area has many small structures, early scans were still less detailed than modern MRI."
+          ]
+        },
+        "modern_mri": {
+          "summary": "Modern MRI can show detailed soft-tissue and bone injuries in the foot and ankle.",
+          "details": [
+            "Doctors can evaluate ligament tears, tendon injuries, cartilage damage, inflammation, swelling, stress fractures, and bone bruises.",
+            "It can help explain pain during walking, running, jumping, or standing.",
+            "Modern imaging is useful for both sudden injuries and long-term overuse problems."
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  
+  --color-bg: #0a0b0e;
+  --color-panel: #15171c;
+  --color-accent: #00f2ff;
+  --color-text-dim: #70757d;
+  --color-success: #00ff9d;
+  --color-danger: #ff3e3e;
+}
+
+@keyframes pulse-ring {
+  0% { transform: scale(1); opacity: 1; }
+  100% { transform: scale(3.5); opacity: 0; }
+}
+
+.animate-pulse-ring {
+  animation: pulse-ring 2s infinite;
+}
